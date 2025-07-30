@@ -9,6 +9,12 @@ Reference](https://pkg.go.dev/badge/github.com/pressly/goose/v3.svg)](https://pk
 [![Go Report
 Card](https://goreportcard.com/badge/github.com/pressly/goose/v3)](https://goreportcard.com/report/github.com/pressly/goose/v3)
 
+#### UPDATES
+- `-env` param now uses `Overload` method. Reason is using locally
+  installed env variables and env variables from a file for test database
+
+
+
 Goose is a database migration tool. Both a CLI and a library.
 
 Manage your **database schema** by creating incremental SQL changes or Go functions.

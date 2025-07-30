@@ -71,7 +71,7 @@ func main() {
 	case "none":
 		// Do not load any env file
 	default:
-		if err := godotenv.Load(*envFile); err != nil {
+		if err := godotenv.Overload(*envFile); err != nil {
 			log.Fatalf("failed to load env file: %v", err)
 		}
 	}
